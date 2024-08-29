@@ -50,6 +50,10 @@
 
 - ci/cd 的应用，把后端服务部署到本地内网服务器
 
+还需要一个web ui，一个脚手架
+
+
+
 ```js
 
 const handleNetworkError = (errStatus) => {

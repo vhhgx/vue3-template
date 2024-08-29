@@ -10,19 +10,19 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: '@import "@/assets/style/pre/main.scss";',
-      },
-    },
+        additionalData: '@import "@/assets/style/pre/main.scss";'
+      }
+    }
   },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
       components: path.resolve(__dirname, './src/components'),
-      views: path.resolve(__dirname, './src/views'),
-    },
+      views: path.resolve(__dirname, './src/views')
+    }
   },
   server: {
-    port: 5173,
+    port: 5173
     // proxy: {
     //   '/api': {
     //     target: apiBaseUrl,
@@ -30,5 +30,5 @@ export default defineConfig({
     //     rewrite: (path) => path.replace(/^\/api/, ''), // 重写路径
     //   },
     // },
-  },
+  }
 })
